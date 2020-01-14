@@ -204,3 +204,24 @@ h3 {
   line-height: 10px;
   padding: 5px 0 0 0;
 }
+
+
+.pro-bar {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 5px;
+    width: 0px;
+    background: black;
+    z-index: 3;
+  }
+
+  .pro-bar-bg {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 6px;
+    width: 100%;
+    background: white;
+    z-index: 2;
+  }
