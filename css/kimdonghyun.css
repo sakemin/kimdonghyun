@@ -57,13 +57,21 @@ a:hover {
 }
 
 .top {
+  width: 100%;
   height: 167px;
+  position: fixed;
+  z-index: 999999;
+  background-color: #FFFFFF;
 }
 
 .center_box {
   width: 1024px;
   margin: 0 auto;
   position: relative;
+}
+
+.main_box{
+  top: 167px;
 }
 
 .logo {
@@ -105,6 +113,8 @@ a:hover {
 .main_display_box {
   width: 1040px;
   margin: 0 auto;
+  top: 167px;
+  position: relative;
 }
 
 .main_element1 {
